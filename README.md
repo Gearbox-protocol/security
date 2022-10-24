@@ -6,8 +6,7 @@ Gearbox Protocol allows anyone to take DeFi-native leverage and then use it acro
 
 _Some compare composable leverage as a primitive to DeFi-native prime brokerage._
 
-Information on bug bounty can be found in the [general docs]([url](https://docs.gearbox.finance/risk-and-security/audits-bug-bounty).
-
+Information on bug bounty can be found in the [general docs]([url](https://docs.gearbox.finance/risk-and-security/audits-bug-bounty)).
 
 ## Repository overview
 
