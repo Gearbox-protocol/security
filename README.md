@@ -1,6 +1,8 @@
 # Gearbox Protocol
 
-Gearbox Protocol brings you **onchain credit**, allowing anyone to margin trade on Uniswap, leverage farm on Curve, leverage stake on Lido, and use 10X more capital on many DeFi protocols you love, as well as RWA & NFTs. Making decentralized leverage a reality thanks to Credit Account abstraction! _[See the blog post for more information on V3 and new features.](https://blog.gearbox.fi/gearbox-protocol-v3-the-onchain-credit-layer/)_
+Gearbox Protocol brings you **onchain credit**, allowing anyone to margin trade on Uniswap, leverage farm on Curve, leverage stake on Lido, and use 10X more capital on many DeFi protocols you love, as well as RWA & NFTs. Making decentralized leverage a reality thanks to Credit Account abstraction! 
+
+_[See the blog post for more information on V3 and new features.](https://blog.gearbox.fi/gearbox-protocol-v3-the-onchain-credit-layer/)_
 
 Gearbox Protocol uses Credit Account abstraction to bring together lending and prime brokerage in the same protocol. Lenders deposit assets to earn passive yield, while the composable leverage side users borrow these assets to create spot leverage positions, which can be used across DeFi. That could be margin trading on Uniswap, farming on Curve and Balancer, leverage staking on Lido and Rocketpool, and a lot more. All of that is made possible with Gearbox’s innovative Credit Account abstraction, creating the base layer of DeFi leverage.
 
