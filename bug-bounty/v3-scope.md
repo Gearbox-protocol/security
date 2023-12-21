@@ -2,15 +2,16 @@
 
 Generally, we care about security of the whole codebase, including contracts that are not deployed yet, so the bug bounty program scope is the following:
 
-- Governance: [governance@c904347](https://github.com/Gearbox-protocol/governance/tree/c90434702c163f3f1c2cb4db90cece525160ee07) (everything in `contracts/` except `contracts/test`) and [timelock@78d438e](https://github.com/Gearbox-protocol/timelock/tree/78d438e51664df7cf8cd5f672d596a65a5d5baf3) (only `contracts/Timelock.sol`)
+- Governance: [governance@c904347](https://github.com/Gearbox-protocol/governance/tree/c90434702c163f3f1c2cb4db90cece525160ee07) (everything in `contracts/` except `contracts/test`)
 - Core: [core-v3@e16559ae](https://github.com/Gearbox-protocol/core-v3/tree/e16559ae82f0f24c3dc29693c444f40d676ebff9) (everything in `contracts/` except `contracts/test/`)
 - Oracles: [oracles-v3@c6e4bd0](https://github.com/Gearbox-protocol/oracles-v3/tree/c6e4bd0a42331daeec599f3d8a688fab79f9879a) (everything in `contracts/` except `contracts/test/`)
 - Integrations: [integrations-v3@302c635](https://github.com/Gearbox-protocol/integrations-v3/tree/302c635e67c0017f5f7d91d9c4c56199c624c4f6) (everything in `contracts/` except `contracts/test/`)
 
-For POC, please use contracts from the list below.
-Note that in order to optimize gas costs for users, we often need to deploy multiple instances of the same contract.
-
 ## Deployed contracts
+
+This is the list of contracts deployed on Ethereum Mainnet that can be used for PoC.
+Unless specified otherwise, all relevant deployed contracts have the `version` constant set to `3_00`.
+Note that in order to optimize gas costs for users, we often need to deploy multiple instances of the same contract.
 
 ### Governance
 
