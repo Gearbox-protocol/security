@@ -5,7 +5,7 @@ Gearbox V2 codebase is generally split across the following two repositories:
 - Core: [core-v2@98a984d](https://github.com/Gearbox-protocol/core-v2/tree/98a984d37fa590e89ff976fe9e2a523b217d50ef)
 - Integrations: [integrations-v3@02f239f](https://github.com/Gearbox-protocol/integrations-v3/tree/02f239fee250fb11b16a28974e71e73264de50b2)
 
-You may however notice that deployed contracts sometimes don't match those listed above: some of them (like `AccountFactory` or `PoolService`) stayed from V1, while others (like `LinearInterestRateModelV3`) were ported from V3.
+You may however notice that deployed contracts sometimes don't match those listed above: some of them (like `AccountFactory` or most `PoolService` contracts) stayed from V1, while others (like `LinearInterestRateModelV3`) were ported from V3.
 
 To remove potential confusion, the bug bounty program is limited only to deployed contracts from the list below, and findings of Critical or High severity.
 
