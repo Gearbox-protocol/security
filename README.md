@@ -13,5 +13,5 @@ Information on bug bounty and audits can be found in the [general docs](https://
 This repository contains audit reports and incident disclosures for Gearbox Protocol:
 
 - `audits` contains final reports submitted by security audit teams. Reports dated before 2022 are mainly relevant for Gearbox V1, although some deployed core contracts from V1 (such as `ACL.sol` or `AddressProvider.sol`) are used in V2. Reports dated after 2022 detail findings for Gearbox V2, up to autumn 2023. **Reports from autumn 2023 are relevant for V3 directly.**
-- `bug-bounty` contains lists of deployed contracts covered by bug bounty for different Gearbox versions.
+- `bug-bounty` contains scopes of contracts covered by bug bounty program for different Gearbox versions.
 - `disclosures` contains reports made by the Gearbox devleopers regarding discovered vulnerabilities and other security incidents after being confirmed and fixed, as well as means deployed to address them.
