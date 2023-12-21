@@ -2,7 +2,7 @@
 
 Generally, we care about security of the whole codebase, including contracts that are not deployed yet, so the bug bounty program scope is the following:
 
-- Governance: [governance@c904347](https://github.com/Gearbox-protocol/governance/tree/c90434702c163f3f1c2cb4db90cece525160ee07) (everything in `contracts/` except `contracts/test`)
+- Governance: [governance@c904347](https://github.com/Gearbox-protocol/governance/tree/c90434702c163f3f1c2cb4db90cece525160ee07) (everything in `contracts/` except `contracts/test/`)
 - Core: [core-v3@e16559ae](https://github.com/Gearbox-protocol/core-v3/tree/e16559ae82f0f24c3dc29693c444f40d676ebff9) (everything in `contracts/` except `contracts/test/`)
 - Oracles: [oracles-v3@c6e4bd0](https://github.com/Gearbox-protocol/oracles-v3/tree/c6e4bd0a42331daeec599f3d8a688fab79f9879a) (everything in `contracts/` except `contracts/test/`)
 - Integrations: [integrations-v3@302c635](https://github.com/Gearbox-protocol/integrations-v3/tree/302c635e67c0017f5f7d91d9c4c56199c624c4f6) (everything in `contracts/` except `contracts/test/`)
@@ -10,7 +10,7 @@ Generally, we care about security of the whole codebase, including contracts tha
 ## Deployed contracts
 
 This is the list of contracts deployed on Ethereum Mainnet that can be used for PoC.
-Unless specified otherwise, all relevant deployed contracts have the `version` constant set to `3_00`.
+Unless specified otherwise, all relevant deployed contracts have the `version` constant set to `3_00` (for adapters it's called `_gearboxAdapterVersion`, and some contracts don't have it at all).
 Note that in order to optimize gas costs for users, we often need to deploy multiple instances of the same contract.
 
 ### Governance
@@ -112,7 +112,7 @@ Note that in order to optimize gas costs for users, we often need to deploy mult
   - [`0xc21b3872B3d21Ab98aBCf329E089B567594877B9`](https://etherscan.io/address/0xc21b3872B3d21Ab98aBCf329E089B567594877B9)
   - [`0x6c116450547340CBb1bEeD2118AD0f3776E0cD46`](https://etherscan.io/address/0x6c116450547340CBb1bEeD2118AD0f3776E0cD46)
   - [`0x7F6A406fDDc3dD02E6bd9c0ECe6fd5540CD70Ff4`](https://etherscan.io/address/0x7F6A406fDDc3dD02E6bd9c0ECe6fd5540CD70Ff4)
-- [`ZeroPriceFeed.sol`](https://github.com/Gearbox-protocol/oracles-v3/blob/c6e4bd0a42331daeec599f3d8a688fab79f9879a/contracts/oracles/ZeroPriceFeed.sol)
+- [`ZeroPriceFeed`](https://github.com/Gearbox-protocol/oracles-v3/blob/c6e4bd0a42331daeec599f3d8a688fab79f9879a/contracts/oracles/ZeroPriceFeed.sol)
   - [`0xE279B205e942f2f61380a1FC099B3AE2a152A516`](https://etherscan.io/address/0xE279B205e942f2f61380a1FC099B3AE2a152A516)
 
 ### Integrations
