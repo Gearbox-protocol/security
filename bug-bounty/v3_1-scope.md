@@ -1,4 +1,4 @@
-# Gearbox V3 scope
+# Gearbox V3.1 scope
 
 Generally, we care about security of the whole codebase, including contracts that are not deployed yet, so the bug bounty program scope is the following:
 
@@ -7,7 +7,7 @@ Generally, we care about security of the whole codebase, including contracts tha
 - Oracles: [oracles-v3](https://github.com/Gearbox-protocol/oracles-v3) (everything in `contracts/` except `contracts/test/`)
 - Integrations: [integrations-v3](https://github.com/Gearbox-protocol/integrations-v3) (everything in `contracts/` except `contracts/test/`)
 - Bots: [bots-v3](https://github.com/Gearbox-protocol/bots-v3) (everything in `contracts/bots`)
-- Periphery: [periphery-v3](https://github.com/Gearbox-protocol/periphery-v3) (everything in `emergency`, `kyc` and `migration`, except contracts with `*Previewer` in name)
+- Periphery: [periphery-v3](https://github.com/Gearbox-protocol/periphery-v3) (everything in `contracts/emergency`, `contracts/kyc` and `contracts/migration`, except contracts with `*Previewer` in name)
 
 For repositories above, only the `main` or `master` branch is considered within scope, unless specified otherwise.
 
