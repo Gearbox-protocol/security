@@ -6,7 +6,7 @@ _[See the blog post for more information on V3 and new features.](https://blog.g
 
 Gearbox Protocol uses Credit Account abstraction to bring together lending and prime brokerage in the same protocol. Lenders deposit assets to earn passive yield, while the composable leverage side users borrow these assets to create spot leverage positions, which can be used across DeFi. That could be margin trading on Uniswap, farming on Curve and Balancer, leverage staking on Lido and Rocketpool, and a lot more. All of that is made possible with Gearbox’s innovative Credit Account abstraction, creating the base layer of DeFi leverage.
 
-Information on bug bounty and audits can be found in the [general docs](https://docs.gearbox.finance/risk-and-security/audits-bug-bounty).
+Information on bug bounty and audits can be found in the [general docs](https://docs.gearbox.finance/core/audits-bug-bounty).
 
 ## Repository overview
 
