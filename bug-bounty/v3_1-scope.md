@@ -5,7 +5,7 @@ Generally, we care about security of the whole codebase, including contracts tha
 - Permissionless: [permissionless](https://github.com/Gearbox-protocol/permissionless) (everything in `contracts/` except `contracts/test/`)
 - Core: [core-v3](https://github.com/Gearbox-protocol/core-v3) (everything in `contracts/` except `contracts/test/`)
 - Oracles: [oracles-v3](https://github.com/Gearbox-protocol/oracles-v3) (everything in `contracts/` except `contracts/test/`)
-- Integrations: [integrations-v3](https://github.com/Gearbox-protocol/integrations-v3) (everything in `contracts/` except `contracts/test/`)
+- Integrations: [integrations-v3](https://github.com/Gearbox-protocol/integrations-v3) (everything in `contracts/` except `contracts/test/`). Also note that Midas, Infinifi and Upshift integrations are being deprecated or refactored, so they are temporarily outside the bounty scope.
 - Bots: [bots-v3](https://github.com/Gearbox-protocol/bots-v3) (everything in `contracts/bots`)
 - Periphery: [periphery-v3](https://github.com/Gearbox-protocol/periphery-v3) (everything in `contracts/emergency`, `contracts/kyc` and `contracts/migration`, except contracts with `*Previewer` in name)
 
